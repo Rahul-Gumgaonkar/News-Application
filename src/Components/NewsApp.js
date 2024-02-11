@@ -7,7 +7,7 @@ function NewsApp() {
   const [newsList, setNewsList] = useState([]);
   const [query, setQuery] = useState("tesla");
   const queryInputRef = useRef(null);
-  const apiUrl = `https://newsapi.org/v2/everything?q=${query}&from=2023-12-18&sortBy=publishedAt&apiKey=1c30091e98ae4eb78bbaaacfa1a4b227`;
+  const apiUrl = `https://newsapi.org/v2/everything?q=${query}&from=2024-01-11&sortBy=publishedAt&apiKey=1c30091e98ae4eb78bbaaacfa1a4b227`;
 
   useEffect(() => {
     fetchData();
